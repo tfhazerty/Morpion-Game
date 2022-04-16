@@ -1,0 +1,230 @@
+<!--
+    // created by azerty
+    copyright boum boum
+    if the pictures don't work, not be inquiet for this, change the images source into the code 
+-->
+<html>
+    <body>
+        <script>
+            function p(n) {
+  return (n & 1) ? false : true;
+}
+            var userGame = 0;
+    function game(m) {
+        if (document.getElementById(m).innerHTML == ""){
+        if (p(userGame) == true){
+            document.getElementById(m).innerHTML = "<center><img src='https://areait.com.au/storage/2017/12/circle-hi.png' width='58%' height='50%'></center>";
+            
+            
+        } else{
+            document.getElementById(m).innerHTML = "<center><img src='https://visitnyack.org/wp-content/themes/visit-nyack/assets/images/close.svg' width='58%' height='50%'></center>";
+           
+            
+        }
+
+        userGame++;
+        
+    }
+}
+var td11, td22, td33, td44, td55, td66, td77, td88, td99;
+var tt11, tt22, tt33, tt44, tt55, tt66, tt77, tt88, tt99 = 0;
+var nowin;
+setInterval(ver, 1000);
+function ver() {
+    td11 = document.getElementById("td1").innerHTML;
+    td22 = document.getElementById("td2").innerHTML;
+    td33 = document.getElementById("td3").innerHTML;
+    td44 = document.getElementById("td4").innerHTML;
+    td55 = document.getElementById("td5").innerHTML;
+    td66 = document.getElementById("td6").innerHTML;
+    td77 = document.getElementById("td7").innerHTML;
+    td88 = document.getElementById("td8").innerHTML;
+    td99 = document.getElementById("td9").innerHTML;
+
+    if (td11 == '<center><img src="https://areait.com.au/storage/2017/12/circle-hi.png" width="58%" height="50%"></center>' && td22 == '<center><img src="https://areait.com.au/storage/2017/12/circle-hi.png" width="58%" height="50%"></center>' && td33 == '<center><img src="https://areait.com.au/storage/2017/12/circle-hi.png" width="58%" height="50%"></center>'){
+    document.getElementById("style").innerHTML += "#td1, #td2, #td3{background:green;}";
+    document.getElementById("gg").innerHTML = "rond win"; 
+    setTimeout(function(){
+   window.location.reload(1);
+}, 3500);
+    }
+    if (td44 == '<center><img src="https://areait.com.au/storage/2017/12/circle-hi.png" width="58%" height="50%"></center>' && td55 == '<center><img src="https://areait.com.au/storage/2017/12/circle-hi.png" width="58%" height="50%"></center>' && td66 == '<center><img src="https://areait.com.au/storage/2017/12/circle-hi.png" width="58%" height="50%"></center>'){
+        document.getElementById("style").innerHTML += "#td4, #td5, #td6{background:green;}";
+        document.getElementById("gg").innerHTML = "rond win"; 
+    setTimeout(function(){
+   window.location.reload(1);
+}, 3500);
+    }
+    if (td77 == '<center><img src="https://areait.com.au/storage/2017/12/circle-hi.png" width="58%" height="50%"></center>' && td88 == '<center><img src="https://areait.com.au/storage/2017/12/circle-hi.png" width="58%" height="50%"></center>' && td99 == '<center><img src="https://areait.com.au/storage/2017/12/circle-hi.png" width="58%" height="50%"></center>'){
+        document.getElementById("style").innerHTML += "#td7, #td8, #td9{background:green;}";
+        document.getElementById("gg").innerHTML = "rond win"; 
+    setTimeout(function(){
+   window.location.reload(1);
+}, 3500);
+    }
+    if (td11 == '<center><img src="https://areait.com.au/storage/2017/12/circle-hi.png" width="58%" height="50%"></center>' && td44 == '<center><img src="https://areait.com.au/storage/2017/12/circle-hi.png" width="58%" height="50%"></center>' && td77 == '<center><img src="https://areait.com.au/storage/2017/12/circle-hi.png" width="58%" height="50%"></center>'){
+        document.getElementById("style").innerHTML += "#td1, #td4, #td7{background:green;}";
+        document.getElementById("gg").innerHTML = "rond win"; 
+    setTimeout(function(){
+   window.location.reload(1);
+}, 3500);
+    }
+    if (td22 == '<center><img src="https://areait.com.au/storage/2017/12/circle-hi.png" width="58%" height="50%"></center>' && td55 == '<center><img src="https://areait.com.au/storage/2017/12/circle-hi.png" width="58%" height="50%"></center>' && td88 == '<center><img src="https://areait.com.au/storage/2017/12/circle-hi.png" width="58%" height="50%"></center>'){
+        document.getElementById("style").innerHTML += "#td2, #td5, #td8{background:green;}";
+        document.getElementById("gg").innerHTML = "rond win"; 
+    setTimeout(function(){
+   window.location.reload(1);
+}, 3500);
+    }
+    if (td33 == '<center><img src="https://areait.com.au/storage/2017/12/circle-hi.png" width="58%" height="50%"></center>' && td66 == '<center><img src="https://areait.com.au/storage/2017/12/circle-hi.png" width="58%" height="50%"></center>' && td99 == '<center><img src="https://areait.com.au/storage/2017/12/circle-hi.png" width="58%" height="50%"></center>'){
+        document.getElementById("style").innerHTML += "#td3, #td6, #td9{background:green;}";
+        document.getElementById("gg").innerHTML = "rond win"; 
+    setTimeout(function(){
+   window.location.reload(1);
+}, 3500);
+    }
+    if (td11 == '<center><img src="https://areait.com.au/storage/2017/12/circle-hi.png" width="58%" height="50%"></center>' && td55 == '<center><img src="https://areait.com.au/storage/2017/12/circle-hi.png" width="58%" height="50%"></center>' && td99 == '<center><img src="https://areait.com.au/storage/2017/12/circle-hi.png" width="58%" height="50%"></center>'){
+        document.getElementById("style").innerHTML += "#td1, #td5, #td9{background:green;}";
+        document.getElementById("gg").innerHTML = "rond win"; 
+    setTimeout(function(){
+   window.location.reload(1);
+}, 3500);
+    }
+    if (td33 == '<center><img src="https://areait.com.au/storage/2017/12/circle-hi.png" width="58%" height="50%"></center>' && td55 == '<center><img src="https://areait.com.au/storage/2017/12/circle-hi.png" width="58%" height="50%"></center>' && td77 == '<center><img src="https://areait.com.au/storage/2017/12/circle-hi.png" width="58%" height="50%"></center>'){
+        document.getElementById("style").innerHTML += "#td3, #td5, #td7{background:green;}";
+        document.getElementById("gg").innerHTML = "rond win"; 
+    setTimeout(function(){
+   window.location.reload(1);
+}, 3500);
+    }
+    ////////////////////////////
+    ////////croix//////////////
+    ///////////////////////////
+   if (td11 == '<center><img src="https://visitnyack.org/wp-content/themes/visit-nyack/assets/images/close.svg" width="58%" height="50%"></center>' && td22 == '<center><img src="https://visitnyack.org/wp-content/themes/visit-nyack/assets/images/close.svg" width="58%" height="50%"></center>' && td33 == '<center><img src="https://visitnyack.org/wp-content/themes/visit-nyack/assets/images/close.svg" width="58%" height="50%"></center>'){
+    document.getElementById("style").innerHTML += "#td1, #td2, #td3{background:green;}";
+    document.getElementById("gg").innerHTML = "croix win"; 
+    setTimeout(function(){
+   window.location.reload(1);
+}, 3500);
+           
+    }
+    if (td44 == '<center><img src="https://visitnyack.org/wp-content/themes/visit-nyack/assets/images/close.svg" width="58%" height="50%"></center>' && td55 == '<center><img src="https://visitnyack.org/wp-content/themes/visit-nyack/assets/images/close.svg" width="58%" height="50%"></center>' && td66 == '<center><img src="https://visitnyack.org/wp-content/themes/visit-nyack/assets/images/close.svg" width="58%" height="50%"></center>'){
+        document.getElementById("style").innerHTML += "#td4, #td5, #td6{background:green;}";
+        document.getElementById("gg").innerHTML = "croix win"; 
+    setTimeout(function(){
+   window.location.reload(1);
+}, 3500);
+    }
+    if (td77 == '<center><img src="https://visitnyack.org/wp-content/themes/visit-nyack/assets/images/close.svg" width="58%" height="50%"></center>' && td88 == '<center><img src="https://visitnyack.org/wp-content/themes/visit-nyack/assets/images/close.svg" width="58%" height="50%"></center>' && td99 == '<center><img src="https://visitnyack.org/wp-content/themes/visit-nyack/assets/images/close.svg" width="58%" height="50%"></center>'){
+        document.getElementById("style").innerHTML += "#td7, #td8, #td9{background:green;}";
+        document.getElementById("gg").innerHTML = "croix win"; 
+    setTimeout(function(){
+   window.location.reload(1);
+}, 3500);
+    }
+    if (td11 == '<center><img src="https://visitnyack.org/wp-content/themes/visit-nyack/assets/images/close.svg" width="58%" height="50%"></center>' && td44 == '<center><img src="https://visitnyack.org/wp-content/themes/visit-nyack/assets/images/close.svg" width="58%" height="50%"></center>' && td77 == '<center><img src="https://visitnyack.org/wp-content/themes/visit-nyack/assets/images/close.svg" width="58%" height="50%"></center>'){
+        document.getElementById("style").innerHTML += "#td1, #td4, #td7{background:green;}";
+        document.getElementById("gg").innerHTML = "croix win"; 
+    setTimeout(function(){
+   window.location.reload(1);
+}, 3500);
+    }
+    if (td22 == '<center><img src="https://visitnyack.org/wp-content/themes/visit-nyack/assets/images/close.svg" width="58%" height="50%"></center>' && td55 == '<center><img src="https://visitnyack.org/wp-content/themes/visit-nyack/assets/images/close.svg" width="58%" height="50%"></center>' && td88 == '<center><img src="https://visitnyack.org/wp-content/themes/visit-nyack/assets/images/close.svg" width="58%" height="50%"></center>'){
+        document.getElementById("style").innerHTML += "#td2, #td5, #td8{background:green;}";
+        document.getElementById("gg").innerHTML = "croix win"; 
+    setTimeout(function(){
+   window.location.reload(1);
+}, 3500);
+    }
+    if (td33 == '<center><img src="https://visitnyack.org/wp-content/themes/visit-nyack/assets/images/close.svg" width="58%" height="50%"></center>' && td66 == '<center><img src="https://visitnyack.org/wp-content/themes/visit-nyack/assets/images/close.svg" width="58%" height="50%"></center>' && td99 == '<center><img src="https://visitnyack.org/wp-content/themes/visit-nyack/assets/images/close.svg" width="58%" height="50%"></center>'){
+        document.getElementById("style").innerHTML += "#td3, #td6, #td9{background:green;}";
+        document.getElementById("gg").innerHTML = "croix win"; 
+    setTimeout(function(){
+   window.location.reload(1);
+}, 3500);
+    }
+    if (td11 == '<center><img src="https://visitnyack.org/wp-content/themes/visit-nyack/assets/images/close.svg" width="58%" height="50%"></center>' && td55 == '<center><img src="https://visitnyack.org/wp-content/themes/visit-nyack/assets/images/close.svg" width="58%" height="50%"></center>' && td99 == '<center><img src="https://visitnyack.org/wp-content/themes/visit-nyack/assets/images/close.svg" width="58%" height="50%"></center>'){
+        document.getElementById("style").innerHTML += "#td1, #td5, #td9{background:green;}";
+        document.getElementById("gg").innerHTML = "croix win"; 
+    setTimeout(function(){
+   window.location.reload(1);
+}, 3500);
+    }
+    if (td33 == '<center><img src="https://visitnyack.org/wp-content/themes/visit-nyack/assets/images/close.svg" width="58%" height="50%"></center>' && td55 == '<center><img src="https://visitnyack.org/wp-content/themes/visit-nyack/assets/images/close.svg" width="58%" height="50%"></center>' && td77 == '<center><img src="https://visitnyack.org/wp-content/themes/visit-nyack/assets/images/close.svg" width="58%" height="50%"></center>'){
+        document.getElementById("style").innerHTML += "#td3, #td5, #td7{background:green;}";
+        document.getElementById("gg").innerHTML = "croix win"; 
+    setTimeout(function(){
+   window.location.reload(1);
+}, 3500);
+    }
+    
+    ////no winn 
+    for (i = 1; i < 10; i++){
+        if (eval('td' + i + i) !== ""){
+            eval('tt' + i + i  + ' = 1;');
+        }
+    }
+    if (tt11 == 1 && tt22 == 1 && tt33 == 1 && tt44 == 1 && tt55 == 1 && tt66 == 1 && tt77 == 1 && tt88 == 1 && tt99 == 1){
+       if (document.getElementById('style').innerHTML.includes('background:green;') == false){
+        document.getElementById("style").innerHTML += "td{background:grey;}";
+        document.getElementById("gg").innerHTML = "NO WIN"; 
+    setTimeout(function(){
+   window.location.reload(1);
+}, 3500);
+       }
+        
+    }
+}
+
+        </script>
+            <table>
+            <tr>
+                <td id="td1" onclick="game(this.id);"></td>
+                <td id="td2" onclick="game(this.id);"></td>
+                <td id="td3" onclick="game(this.id);"></td>
+            </tr>
+            <tr>
+                <td id="td4" onclick="game(this.id);"></td>
+                <td id="td5" onclick="game(this.id);"></td>
+                <td id="td6" onclick="game(this.id);"></td>
+            </tr>
+            <tr>
+                <td id="td7" onclick="game(this.id);"></td>
+                <td id="td8" onclick="game(this.id);"></td>
+                <td id="td9" onclick="game(this.id);"></td>
+            </tr>
+        </table>
+      <div id="gg"></div>
+        <style id="style">
+            td{
+                border:1vh solid grey;
+                height:15vh;
+                width:13vh;
+                cursor: pointer;
+                
+            }
+            table{
+                border-collapse: collapse;
+                position: absolute;
+                top: 50%; right: 50%;
+  transform: translate(50%,-50%);            
+}
+            td:hover{
+                background-color: grey;
+            }
+            body{
+                margin:0px;
+                padding: 0px;
+                background-color: #23273f;
+            }
+            #gg{
+                position: absolute;
+                top: 20%; right: 50%;
+  transform: translate(50%,-80%);    color:white;
+  font-family:sans-serif;
+  text-transform: uppercase;font-weight: bold;
+  font-size: 10vh;
+            }
+        </style>
+    </body>
+</html>
